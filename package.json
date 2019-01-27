@@ -1,5 +1,5 @@
 {
-  "name": "ts-dsp",
+  "name": "ts-dsp-learn",
   "version": "0.0.1",
   "description": "",
   "main": "lib/index",
@@ -9,7 +9,11 @@
     "build": "tsc -p .",
     "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts"
   },
-  "keywords": ["node", "typescript", "dsp"],
+  "keywords": [
+    "node",
+    "typescript",
+    "dsp"
+  ],
   "author": "Gabriel Dalay",
   "license": "ISC",
   "devDependencies": {
